@@ -1,0 +1,263 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --shadow-3xl:  0px 0px 20px 5px rgba(16, 33, 43, 0.09);
+    --shadow-4xl:  0px 0px 33px 11px rgba(16, 33, 43, 0.06);
+  --background: #ffffff;
+  --background-blur: rgba(255, 255, 255, 0.6);
+  --background-secondary: #fcfcfc;
+  --foreground: #111111;
+  --foreground-muted: #7e7e7e;
+  --card: #f7f7f8;
+  --border: #dfdfdf;
+  --slate: #bfc8d4;
+  --slate-foreground: #354050;
+    --slate-foreground-darker: #1a2028;
+    --slate-foreground-dark-constant: #1a2028;
+  --slate-50: #f6f7f9;
+  --slate-100: #eaedf1;
+  --slate-200: #d4dae3;
+  --slate-300: #bfc8d4;
+  --slate-400: #a9b5c6;
+  --slate-500: #94a3b8;
+  --slate-600: #6c809d;
+  --slate-700: #4f6078;
+  --slate-800: #354050;
+  --slate-900: #1a2028;
+  --slate-950: #0e1115;
+  --malibu: #9ccbf5;
+  --malibu-foreground: #0e5390;
+  --malibu-foreground-darker: #072b4a;
+  --malibu-foreground-dark-constant: #072b4a;
+  --malibu-gradient: #d5e9fb;
+  --malibu-50: #f6fafe;
+  --malibu-100: #ecf5fd;
+  --malibu-200: #d5e9fb;
+  --malibu-300: #c3e0f9;
+  --malibu-400: #b0d6f7;
+  --malibu-500: #9ccbf5;
+  --malibu-600: #54a6ee;
+  --malibu-700: #167eda;
+  --malibu-800: #0e5390;
+  --malibu-900: #072b4a;
+  --malibu-950: #041625;
+  --green: #b0e3b6;
+  --green-foreground: #2b7934;
+  --green-foreground-darker: #153c1a;
+  --green-foreground-dark-constant: #153c1a;
+  --green-gradient: #e1f4e3;
+  --green-50: #f7fcf8;
+  --green-100: #f0faf1;
+  --green-200: #e1f4e3;
+  --green-300: #ceeed2;
+  --green-400: #bfe8c4;
+  --green-500: #b0e3b6;
+  --green-600: #74ce7e;
+  --green-700: #3fb14c;
+  --green-800: #2b7934;
+  --green-900: #153c1a;
+  --green-950: #0b1e0d;
+  --rose: #f8a9a8;
+  --rose-foreground: #9c0f0d;
+  --rose-foreground-darker: #4c0706;
+  --rose-foreground-dark-constant: #4c0706;
+  --rose-gradient: #fcdede;
+  --rose-50: #fef6f6;
+  --rose-100: #fdecec;
+  --rose-200: #fcdede;
+  --rose-300: #fbcccb;
+  --rose-400: #f9b9b8;
+  --rose-500: #f8a9a8;
+  --rose-600: #f25c5a;
+  --rose-700: #e71613;
+  --rose-800: #9c0f0d;
+  --rose-900: #4c0706;
+  --rose-950: #260403;
+  --peach: #fac99c;
+  --peach-foreground: #9b4f08;
+  --peach-foreground-darker: #4e2804;
+  --peach-foreground-dark-constant: #4e2804;
+  --peach-gradient: #fdead8;
+  --peach-50: #fffaf5;
+  --peach-100: #fef4ec;
+  --peach-200: #fdead8;
+  --peach-300: #fcdfc5;
+  --peach-400: #fbd5b1;
+  --peach-500: #fac99c;
+  --peach-600: #f6a050;
+  --peach-700: #e9770c;
+  --peach-800: #9b4f08;
+  --peach-900: #4e2804;
+  --peach-950: #271402;
+  --lavender: #ffb3e9;
+  --lavender-foreground: #ad007c;
+  --lavender-foreground-darker: #57003e;
+  --lavender-foreground-dark-constant: #57003e;
+  --lavender-gradient: #ffe0f6;
+  --lavender-50: #fffafe;
+  --lavender-100: #fff0fb;
+  --lavender-200: #ffe0f6;
+  --lavender-300: #ffd1f2;
+  --lavender-400: #ffc2ee;
+  --lavender-500: #ffb3e9;
+  --lavender-600: #ff5cd1;
+  --lavender-700: #ff05b8;
+  --lavender-800: #ad007c;
+  --lavender-900: #57003e;
+  --lavender-950: #2e0021;
+  --biloba: #c8adfa;
+  --biloba-foreground: #3e0a9f;
+  --biloba-foreground-darker: #200552;
+  --biloba-foreground-dark-constant: #200552;
+  --biloba-gradient: #e8ddfd;
+  --biloba-50: #f9f5fe;
+  --biloba-100: #f5f1fe;
+  --biloba-200: #e8ddfd;
+  --biloba-300: #dfcffc;
+  --biloba-400: #d2bcfb;
+  --biloba-500: #c8adfa;
+  --biloba-600: #915cf5;
+  --biloba-700: #5e0ff0;
+  --biloba-800: #3e0a9f;
+  --biloba-900: #200552;
+  --biloba-950: #0f0226;
+}
+
+:root[data-theme="dark"] {
+    --green-foreground: #b0e3b6;
+    --green-foreground-darker: #f0faf1;
+    --biloba-foreground: #c8adfa;
+    --biloba-foreground-darker: #f5f1fe;
+  --malibu-foreground: #9ccbf5;
+  --malibu-foreground-darker: #ecf5fd;
+  --malibu-gradient: #041625
+  --slate-foreground: #94a3b8;
+    --slate-foreground-darker: #d4dae3;
+
+  --green-gradient: #0b1e0d;
+  --rose-foreground: #f8a9a8;
+  --rose-gradient: #260403;
+  --peach-foreground: #fac99c;
+  --peach-gradient: #271402;
+  --lavender-foreground: #ffb3e9;
+  --lavender-foreground-darker: #fff0fb;
+  --lavender-gradient: #2e0021
+
+  --biloba-gradient: #0f0226;
+}
+
+:root[data-theme="dark"] {
+  --background: #0a0a0a;
+  --background-blur: rgba(33, 33, 33, 0.6);
+  --background-secondary: #141414;
+  --foreground: #ededed;
+  --foreground-muted: #a3a3a3;
+  --card: #1a1a1a;
+  --border: #2c2c2c;
+}
+
+html[data-theme="dark"] .home {
+  background-color: var(--background);
+  background-image: radial-gradient(
+      circle farthest-corner at top left,
+      var(--biloba-950) 0%,
+      rgba(225, 243, 97, 0) 50%
+    ),
+    radial-gradient(
+      circle farthest-side at top right,
+      var(--peach-950) 0%,
+      rgba(181, 176, 177, 0) 10%
+    ),
+    radial-gradient(
+      circle farthest-corner at bottom right,
+      var(--green-950) 0%,
+      rgba(204, 104, 119, 0) 33%
+    ),
+    radial-gradient(
+      circle farthest-corner at top right,
+      var(--peach-950) 0%,
+      rgba(155, 221, 240, 0) 50%
+    ),
+    radial-gradient(
+      ellipse at bottom center,
+      var(--lavender-950) 0%,
+      rgba(254, 43, 0, 0) 80%
+    );
+}
+
+body {
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  background-color: var(--background);
+
+}
+
+.home {
+    background-image: radial-gradient(
+      circle farthest-corner at top left,
+      var(--biloba-200) 0%,
+      rgba(225, 243, 97, 0) 50%
+    ),
+    radial-gradient(
+      circle farthest-side at top right,
+      var(--peach-200) 0%,
+      rgba(181, 176, 177, 0) 10%
+    ),
+    radial-gradient(
+      circle farthest-corner at bottom right,
+      var(--green-200) 0%,
+      rgba(204, 104, 119, 0) 33%
+    ),
+    radial-gradient(
+      circle farthest-corner at top right,
+      var(--peach-200) 0%,
+      rgba(155, 221, 240, 0) 50%
+    ),
+    radial-gradient(
+      ellipse at bottom center,
+      var(--lavender-200) 0%,
+      rgba(254, 43, 0, 0) 80%
+    );
+}
+
+.animate-gradient {
+  background-size: 300%;
+  -webkit-animation: animatedgradient 3s ease infinite alternate;
+  -moz-animation: animatedgradient 3s ease infinite alternate;
+  animation: animatedgradient 3s ease infinite alternate;
+}
+
+@keyframes animatedgradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@layer components {
+  body {
+    @apply transition-colors;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a,
+  button,
+  li,
+  input, span {
+    @apply font-sans text-foreground transition-colors;
+  }
+}
