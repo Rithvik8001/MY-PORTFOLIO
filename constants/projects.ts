@@ -15,8 +15,8 @@ export const projects: Project[] = [
     description:
       "I developed my portfolio website using Next.js to manage the site's structure and logic, Tailwind CSS to create a modern and responsive design, and Framer Motion to add smooth and engaging animations. The result is a dynamic and visually appealing portfolio that highlights my skills, projects and experience..",
     tags: ["NextJs", "React", "TypeScript", "TailwindCSS"],
-    url: "https://rithvik-portfolio.vercel.app/",
-    github: "https://github.com/Rithvik8001/Rithvik-s-Portfolio",
+    url: "https://rithviks-portfolio.vercel.app/",
+    github: "https://github.com/Rithvik8001/MY-PORTFOLIO",
     color: "green",
   },
   {
