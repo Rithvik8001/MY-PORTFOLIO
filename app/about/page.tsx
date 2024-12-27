@@ -77,7 +77,7 @@ const AboutPage = () => {
                   When I'm not coding, I love to watch football ⚽️. You could
                   call me a football fanatic—I started watching this beautiful
                   sport when I was 16 years old, and my favorite club is the
-                  biggest in England, Manchester United!
+                  biggest in England, Liverpool.YNWA❤️!
                 </p>
                 <p className="text-foreground-muted">
                   My goal is to leverage my skills and knowledge to create
