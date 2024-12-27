@@ -4,7 +4,7 @@ import { v4 } from "uuid";
 export const experiences: Experience[] = [
   {
     company: "Tata Consultancy Services",
-    role: "Systems Engineer",
+    role: "Jr Frontend Developer",
     from: "June 2021",
     to: "July 2022",
     descriptions: [
