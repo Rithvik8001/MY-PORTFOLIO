@@ -75,9 +75,9 @@ const AboutPage = () => {
                 </p>
                 <p className="text-foreground-muted">
                   When I'm not coding, I love to watch football ⚽️. You could
-                  call me a football fanatic—I started watching this beautiful
+                  call me a football fanatic. I started watching this beautiful
                   sport when I was 16 years old, and my favorite club is the
-                  biggest in England, Liverpool.YNWA❤️!
+                  biggest in England, Manchester United.GGMU❤️!
                 </p>
                 <p className="text-foreground-muted">
                   My goal is to leverage my skills and knowledge to create
