@@ -4,5 +4,5 @@ export const loveToDo = [
   "A Marvel fanatic!",
   "I love talking about sports and tech",
   "Steve Jobs admirer",
-  "Manchester United. GGMU!❤️",
+  "Manchester United Fanboy. GGMU!❤️",
 ];
